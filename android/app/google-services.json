@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "243404930581",
+    "project_id": "authapp-22a67",
+    "storage_bucket": "authapp-22a67.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243404930581:android:c3c1df3a4fd8d9e92c581c",
+        "android_client_info": {
+          "package_name": "com.example.developer_hub_authentication_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1HrVnG0vBgH8RUtZibpTnnYjdSOjEyQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
