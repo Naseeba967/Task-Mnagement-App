@@ -1,6 +1,4 @@
 
-# developer_hub_authentication_app
-
 # Task Manager - Flutter App
 
 A clean, well-structured Flutter Task Management application with data persistence using SharedPreferences, including a Task model, Task service for CRUD operations, Home screen with task list display, Add Task screen with form validation, reusable widgets for task items, and authentication features such as user sign-up, login, logout, and session management.
