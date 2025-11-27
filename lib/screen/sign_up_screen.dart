@@ -57,7 +57,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
     }
   }
 
+  @override
   Widget build(BuildContext context) {
+       final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
     return Scaffold(
       backgroundColor: Colors.grey.withValues(alpha: 0.1),
       body: SafeArea(
@@ -136,7 +139,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       child: Text(
                         'Log In',
                         style: TextStyle(
-                          color: AppColors.primaryBlue,
+                          color: colorScheme.primary,
                           fontWeight: FontWeight.bold,
                         ),
                       ),

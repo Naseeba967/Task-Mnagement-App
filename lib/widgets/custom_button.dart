@@ -13,6 +13,8 @@ class CustomButton extends StatelessWidget {
   final bool isLoading;
   @override
   Widget build(BuildContext context) {
+       final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
     return Container(
       height: 50,
       width: double.infinity,
@@ -33,7 +35,7 @@ class CustomButton extends StatelessWidget {
       child: ElevatedButton(
         onPressed: isLoading ? null : onPressed,
         style: ElevatedButton.styleFrom(
-          backgroundColor: AppColors.primaryBlue,
+          backgroundColor: colorScheme.primary,
           padding: EdgeInsets.symmetric(vertical: 16),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),

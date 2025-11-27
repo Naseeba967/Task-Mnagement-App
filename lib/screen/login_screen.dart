@@ -53,7 +53,10 @@ class _LoginScreenState extends State<LoginScreen> {
     }
   }
 
+  @override
   Widget build(BuildContext context) {
+       final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
     return Scaffold(
       backgroundColor: Colors.grey.withValues(alpha: 0.1),
       body: SafeArea(
@@ -108,7 +111,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       },
                       child: Text(
                         'Forgot Password?',
-                        style: TextStyle(color: AppColors.primaryBlue),
+                        style: TextStyle(color:colorScheme.primary),
                       ),
                     ),
                   ),
@@ -133,7 +136,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         },
                         child: Text(
                           'Sign Up',
-                          style: TextStyle(color: AppColors.primaryBlue),
+                          style: TextStyle(color: colorScheme.primary),
                         ),
                       ),
                     ],
