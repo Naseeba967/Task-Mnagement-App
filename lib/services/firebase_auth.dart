@@ -44,11 +44,9 @@ class FirebaseAuthService {
   // Logout
   Future<void> logout() async {
     
-    try {
+ 
       await _auth.signOut();
-    } on FirebaseAuthException  catch (e) {
-       return ;
-    }
+  
 
       
   }

@@ -23,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
     _opacity = CurvedAnimation(parent: _controller, curve: Curves.easeIn);
     _controller.forward();
     // Navigate after a short delay
-    Future.delayed(const Duration(seconds: 2), () {
+    Future.delayed(const Duration(seconds: 4), () {
       if (mounted) {
         Navigator.of(context).pushReplacement(
           MaterialPageRoute(builder: (_) => const LoginScreen()),
